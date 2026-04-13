@@ -44,7 +44,7 @@ const About = () => {
                                 Fashion Partner We Bring you the latest trends in fashion at unbeatable price. From casual everyday wear to elegant party outfits, discover a wide range of clothing and accesories foar every occasion.
                             </p>
                             <div>
-                                <button className="primary-btn mx-1.5">Explore store</button>
+                                <button className="primary-btn mx-1.5 gap-4">Explore store</button>
                                 <button className="secondary-btn">Contact Us</button>
                             </div>
 

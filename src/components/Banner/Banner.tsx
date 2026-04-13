@@ -13,7 +13,7 @@ const Banner = () => {
               Grab your favorite styles before they're gone. Premium quality
               fashion at unbeatable prices.
             </p>
-            <div className="flex flex-col sm:flex-row-gap-3 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-3 ">
               <button className="primary-btn">shop now</button>
               <button className="secondary-btn">view collection</button>
             </div>
