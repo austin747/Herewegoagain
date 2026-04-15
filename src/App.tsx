@@ -1,6 +1,6 @@
 // import { Footer, Navbar } from "./components"
 
-import { Banner, Feature, Footer, HeroSection, Navbar, About } from "./components"
+import { Banner, Feature,Service, Footer, HeroSection, Navbar, About } from "./components"
 
 
 
@@ -12,6 +12,7 @@ const App = () => {
       <Feature/>
       <Banner/>
       <About/>
+      <Service/>
       <Footer/>
       
     </div>
