@@ -8,8 +8,8 @@ const Banner = () => {
           {/* left side */}
           <div className="bg-purple-300 dark:bg-gray-900 py-10 md:py-16 space-y-4 text-center lg:text-left order-2 lg:order-1">
             <span className="section-btn ">Limited Time Offer</span>
-            <h1 className="text-3xl lg:text-5xl font-bold mt-5">Summer Sale <span className="text-yellow-300"> Up to 50% Off </span> </h1>
-            <p>
+            <h1 className="text-3xl lg:text-5xl font-bold mt-5">Summer Sale <span className="block text-primary"> Up to 50% Off </span> </h1>
+            <p className="text-gray-500 dark:text-gray-400">
               Grab your favorite styles before they're gone. Premium quality
               fashion at unbeatable prices.
             </p>
