@@ -12,7 +12,9 @@ const Service = () => {
       <div className="grid grid-cols-2 lg:grid-cols-4  gap-3 lg:gap-8">
         {Services.map((item)=>(
           <div key={item.id}
-          className="group bg-white dark:bg-black  ">
+          className="group bg-white dark:bg-black  rounded-xl lg:rounded-2xl p-4 lg:p-8
+          hover:bg-primary dark:text-white duration-300 space-y-4 border border-gray-100
+          dark:border-gray-800 shadow-2xl hover:border-primary dark:hover:bg-black ">
             
             <div className="h-12 w-12 lg:h-16 lg:w-16 bg-primary/10 flex justify-center items-center rounded-xl lg:rounded-2xl
             group-hover:bg-primary"><item.icon/></div>
