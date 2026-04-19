@@ -5,8 +5,8 @@ const Service = () => {
     <div className="bg-white dark:bg-gray-800 dark:text-white py-10 lg:py-14">
     <div className="container">
       <div>
-        <span className="section-btn">Our Categories</span>
-        <h1 className="text-4xl lg:text-5xl font-bold">Shop By <span className="text-primary">Category</span></h1>
+        <span className="section-btn gap-y-4">Our Categories</span>
+        <h1 className="text-4xl lg:text-5xl font-bold mb-4 lg:mb-6">Shop By <span className="text-primary">Category</span></h1>
       </div>
 
       <div className="grid grid-cols-2 lg:grid-cols-4  gap-3 lg:gap-8">

@@ -22,7 +22,7 @@ const About = () => {
                             </div>
                             <div className="bg-gray-800 h-15 w-15 lg:h-25 lg:w-25 flex items-center rounded-md absolute -bottom-2 -right-2 text-center lg:right-0 text-xs lg:text-sm font-semibold shadow-xl border-2">
                                 <div>
-                                    <div className="section-btn h-12 w-12 lg:h-14 lg:w-14 justify-center items-center mr-4 rounded-xl lg:rounded-2xl">  <button > +5 </button>  </div>
+                                    <div className=" flex justify-center items-center ">  <button className="section-btn h-12 w-12 lg:h-14 lg:w-14 rounded-xl lg:rounded-2xl "> +5 </button>  </div>
                                     <div> <p className="font-bold"> Years </p>
                                         <p> <span className="text-white text-base">Experience </span>
                                         </p>
