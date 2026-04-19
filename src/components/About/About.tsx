@@ -21,10 +21,11 @@ const About = () => {
                                 <img src={aboutImage} alt="collection-Image" className="w-full max-h-[280px] lg:max-h-[400px] object-fit hover:scale-105 mx-auto duration-100 dark:text-white text-sm lf:text-base" />
                             </div>
                             <div className="bg-gray-800 h-15 w-15 lg:h-25 lg:w-25 flex items-center rounded-md absolute -bottom-2 -right-2 text-center lg:right-0 text-xs lg:text-sm font-semibold shadow-xl border-2">
-                                <div> <span> <button className="section-btn h-12 w-12 lg:h-14 lg:w-14 justify-center items-center mr-4 rounded-xl"> +5 </button>  </span>
+                                <div>
+                                    <div className="section-btn h-12 w-12 lg:h-14 lg:w-14 justify-center items-center mr-4 rounded-xl lg:rounded-2xl">  <button > +5 </button>  </div>
                                     <div> <p className="font-bold"> Years </p>
                                         <p> <span className="text-white text-base">Experience </span>
-                                         </p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
